@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cart</title>
+	<link href='https://fonts.googleapis.com/css?family=Spartan' rel='stylesheet'>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+	<section id="header">
+		<a href="#"><img src="images/Logo.png" class="logo" alt="logo" height="150px" width="150px"></a> 
+
+		<div>
+			<ul id="title">
+				<li>Frency Crochet</li>
+			</ul>
+		</div>
+		<div>
+
+			<ul id="navbar">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="shop.html">Shop</a></li>		
+				<!-- <li><a href="blog.html">Blog</a></li>		-->
+				<li><a href="about.html">About</a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li id="lg-bag"><a  class="active" href="cart.html"><i class="fa-solid fa-shopping-bag"></i></a></li>
+				<a href="#" id="close"><i class="far fa-times"></i></a>
+			</ul>
+		</div>	
+		<div id="mobile">
+			<a href="cart.html"><i class="fa-solid fa-shopping-bag"></i></a>
+			<i id="bar" class="fas fa-outdent"></i>
+		</div>	
+	</section>
+
+	<section id="page-header" class="about-header">
+		<h2>#lets's_talk</h2>
+		<p>LEAVE A MESSAGE, We love to hear from you!</p>
+	</section>
+
+   <section id="cart" class="section-p1">
+        <table width="100%"> 
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-sharp fa-regular fa-circle-xmark" style="color: #131415;"></i></a></td>
+                    <td><img src="images/shainy/cropTop/c1.jpg" alt=""></td>
+                    <td>Butterfly Flower Dress</td>
+                    <td>$139</td>
+                    <td><input type="number" value="1"></td>
+					<td>$139</td>
+                </tr>
+				<tr>
+                    <td><a href="#"><i class="fa-sharp fa-regular fa-circle-xmark" style="color: #131415;"></i></a></td>
+                    <td><img src="images/shainy/cropTop/c1.jpg" alt=""></td>
+                    <td>Butterfly Flower Dress</td>
+                    <td>$139</td>
+                    <td><input type="number" value="1"></td>
+					<td>$139</td>
+                </tr>
+				<tr>
+                    <td><a href="#"><i class="fa-sharp fa-regular fa-circle-xmark" style="color: #131415;"></i></a></td>
+                    <td><img src="images/shainy/cropTop/c1.jpg" alt=""></td>
+                    <td>Butterfly Flower Dress</td>
+                    <td>$139</td>
+                    <td><input type="number" value="1"></td>
+					<td>$139</td>
+                </tr>
+            </tbody>
+        </table>
+   </section>
+
+   <section id="cart-add" class="section-p1">
+		<div id="coupon">
+			<h3>Apply Coupon</h3>
+			<div>
+				<input type="text" placeholder="Enter Your Coupon">
+				<button class="normal">Apply</button>
+			</div>
+		</div>
+		<div id="subtotal">
+			<h3>Cart Totals</h3>
+			<table>
+				<tr>
+					<td>Cart Subtotal</td>
+					<td>$335</td>
+				</tr>
+				<tr>
+					<td>Shipping</td>
+					<td>Free</td>
+				</tr>
+				<tr>
+					<td><strong>Total</strong></td>
+					<td><strong>$335</strong></td>
+				</tr>
+			</table>
+			<button class="normal">Proceed to checkout</button>
+		</div>
+   </section>
+
+	<footer class="section-p1">
+		<div class="col">
+			<img class="logo" src="images/Logo.png" height="80px"width="80px" alt="logo">
+			<h4>Contact</h4>
+			<p><strong>Address: </strong>No: 113/5 Rajapihilla Mawatha, Kurunegala.</p>
+			<p><strong>Phone:</strong>+(94)37 1223345</p>
+			<p><strong>Hours:</strong>08.00- 22.00, Mon-Sat</p>
+			<div class="follow">
+				<h4>Follow</h4>
+				<div class="icon">
+					<i class="fab fa-facebook-f"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-youtube"></i>
+					<i class="fab fa-tiktok"></i>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="col">
+			<h4>About</h4>
+			<a href="#">About Us</a>
+			<a href="#">Delivery Information</a>
+			<a href="#">Privacy Policy</a>
+			<a href="#">Terms & Conditions</a>
+			<a href="#">Contact Us</a>
+		</div>
+
+
+		<div class="col">
+			<h4>My Account</h4>
+			<a href="#">Sign In</a>
+			<a href="#">View Cart</a>
+			<a href="#">My Wishlist</a>
+			<a href="#">Track My Order</a>
+			<a href="#">Help</a>
+
+		</div>
+		<div class="col install">
+			<h4>Install App</h4>
+			<p>From App Store or Google Play</p>
+			<div class="row">
+				<img src="images/footer/apple.png" alt="appstore" width="300px" height="80px">
+				<img src="images/footer/dow.png" alt="" width="300px" height="80px">
+			</div>
+			<p>Secured Payment Gateway</p>
+			<img src="images/footer/pay.png" alt="pay" width="200px" height="50px">
+		</div>
+		 <div class="copyright">
+			<p>© 2023-Frenzy Crochet & Crafts</p>
+		</div>
+
+	</footer>
+
+	<script src="script.js"></script>
+
+</body>
+</html>
